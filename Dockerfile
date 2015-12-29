@@ -1,5 +1,5 @@
-FROM rootlogin/ubuntu-java:12.04
-MAINTAINER Simon Erhardt <me@rootlogin.ch>
+FROM bassoman/ubuntu-jdk:1.0.0
+MAINTAINER Jon Lancelle <bassoman@gmail.com>
 
 # Add and run the installer
 ADD . /app
